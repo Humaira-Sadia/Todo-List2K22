@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList-2K22</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="square" style="--i:0;"></div>
+    <div class="square" style="--i:1;"></div>
+    <div class="square" style="--i:2;"></div>
+    <div class="square" style="--i:3;"></div>
+    <div class="square" style="--i:4;"></div>
+    <div class="square" style="--i:5;"></div>
+    <div class="square" style="--i:6;"></div>
+    <div class="square" style="--i:7;"></div>
+    <div class="square" style="--i:8;"></div>
+    <div class="square" style="--i:9;"></div>
+    <div class="square" style="--i:10;"></div>
+        <header>
+            <div class="header">
+                <div class="heading"><h1>Todo List 2K22</h1></div>
+                <div class="theme-toggle" id="theme-toggle">
+                    <!-- <div class="fas fa-sun" id="sun-icon"></div> -->
+                    <i class="fas fa-sun" id="sun-icon"></i>
+                    <!-- <i class="fas fas fa-moon" id="moon-icon"></i> -->
+                </div>
+            </div>
+            
+                <form id="new-task-form">
+                    
+                    <input id="new-task-input" type="text" placeholder="what do you have planned?" >
+                    <button id="search" class="fa fa-search"></button>
+                    <input type="submit" id="new-task-submit" value="Add Task">
+                </form>
+
+            <span id="msg-success"></span>
+            <span id="msg-failed"></span>
+
+        </header>
+
+        <main>
+
+            <section class="task-list">
+                <h2>Tasks --></h2>
+
+                <div id="tasks">
+                    <!-- <div class="task">
+                        <div class="content">
+                            <input type="text" class="text" value="precious" readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div> -->
+
+                </div>
+            </section>
+        </main>
+        <!-- <div class="bubbles">
+            <img src="bubble.png" alt="">
+        </div> -->
+</body>
+</html>
